@@ -1,9 +1,11 @@
+import Footer from "./Components/Footer/Footer";
+import Header from "./Components/Header/Header";
+
 function App() {
   return (
     <>
-      <div className="p-5 bg-cyan-950 text-gray-200 flex justify-center ">
-        <h1 className="text-2xl font-bold">Projeto BASE</h1>
-      </div>
+      <Header></Header>
+      <Footer></Footer>
     </>
   );
 }
