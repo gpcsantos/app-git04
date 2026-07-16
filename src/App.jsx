@@ -1,9 +1,20 @@
+import Footer from "./Components/Footer/Footer";
+import Header from "./Components/Header/Header";
+import { Routes, Route } from "react-router-dom";
+
+import React from "react";
+
 function App() {
   return (
     <>
-      <div className="p-5 bg-cyan-950 text-gray-200 flex justify-center ">
-        <h1 className="text-2xl font-bold">Projeto BASE</h1>
-      </div>
+      <Header></Header>
+      <Routes>
+        <Route>
+          {/* <Route path="/" element={<Home />} /> */}
+          {/* <Route path="/produtos" element={<Produtos />} /> */}
+        </Route>
+      </Routes>
+      <Footer></Footer>
     </>
   );
 }
