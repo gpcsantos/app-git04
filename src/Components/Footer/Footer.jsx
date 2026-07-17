@@ -9,29 +9,12 @@ function Footer() {
             <div className=""> Logo</div>
             <div className="gap-10 flex flex-row">
               <div className="flex flex-col gap-6 items-center">
-                <a href="" className="flex">
+                <Link to="/" className="flex">
                   Home
-                </a>
-                <a href="" className="flex">
+                </Link>
+                <Link to="/ListaProduto" className="flex">
                   Produtos
-                </a>
-              </div>
-
-              <div className="flex flex-col gap-6 items-center text-center">
-                <a href="" className="flex">
-                  Home
-                </a>
-                <a href="" className="flex">
-                  Produtos
-                </a>
-              </div>
-              <div className="flex flex-col gap-6 items-center text-center">
-                <a href="" className="flex">
-                  Home
-                </a>
-                <a href="" className="flex">
-                  Produtos
-                </a>
+                </Link>
               </div>
             </div>
             <div className=""> Mais Informações sla cara</div>
