@@ -8,21 +8,21 @@ export default function ListaProduto() {
         <Link to="/produto">
           <div className="border-2 border-[#ccc] p-10 m-10">
             <h3>Produto 1</h3>
+            <p>R$ 19,00</p>
+          </div>
+        </Link>
+
+        <Link to="/produto">
+          <div className="border-2 border-[#ccc] p-10 m-10">
+            <h3>Produto 2</h3>
             <p>R$ 10,00</p>
           </div>
         </Link>
 
         <Link to="/produto">
           <div className="border-2 border-[#ccc] p-10 m-10">
-            <h3>Produto 1</h3>
-            <p>R$ 10,00</p>
-          </div>
-        </Link>
-
-        <Link to="/produto">
-          <div className="border-2 border-[#ccc] p-10 m-10">
-            <h3>Produto 1</h3>
-            <p>R$ 10,00</p>
+            <h3>Produto 3</h3>
+            <p>R$ 5,00</p>
           </div>
         </Link>
       </div>
